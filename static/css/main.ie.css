@@ -5292,6 +5292,12 @@ textarea.input__long {
   display: block;
 }
 
+.u-link__disabled {
+  color: #babbbd !important;
+  border: none !important;
+  cursor: not-allowed !important;
+}
+
 .content__half-top-on-desk {
   padding-top: 20px;
 }
@@ -5672,11 +5678,6 @@ textarea.input__long {
 .list_link.list_link__phone.active {
   border-color: #101820;
   color: #101820;
-}
-
-.list_link__disabled {
-  color: #babbbd !important;
-  border: none !important;
 }
 
 .list__unstyled {
@@ -8595,11 +8596,11 @@ a.focus .summary_event-date {
   border-bottom-width: 1px !important;
 }
 
-.footer_nav-list .list_link.list_link__disabled {
+.footer_nav-list .list_link.u-link__disabled {
   border-bottom: 1px dotted;
 }
 
-.footer_nav-list .list_link.list_link__disabled {
+.footer_nav-list .list_link.u-link__disabled {
   border-bottom-width: 0 !important;
 }
 
@@ -8661,7 +8662,7 @@ a.focus .summary_event-date {
   color: #43484e;
 }
 
-.footer_list .list_link.list_link__disabled {
+.footer_list .list_link.u-link__disabled {
   border-bottom: 1px dotted;
 }
 
@@ -8764,7 +8765,7 @@ a.focus .summary_event-date {
   border-bottom-width: 1px !important;
 }
 
-.footer_long-list .list_link.list_link__disabled:hover {
+.footer_long-list .list_link.u-link__disabled:hover {
   border-bottom-width: 0 !important;
 }
 
@@ -8946,31 +8947,31 @@ a.focus .summary_event-date {
   background-size: 22px;
 }
 
-.footer .list_link__disabled {
+.footer .u-link__disabled {
   color: #babbbd;
   border-color: #babbbd;
 }
 
-.footer .list_link__disabled:visited,
-.footer .list_link__disabled.visited {
+.footer .u-link__disabled:visited,
+.footer .u-link__disabled.visited {
   border-color: #babbbd;
   color: #babbbd;
 }
 
-.footer .list_link__disabled:hover,
-.footer .list_link__disabled.hover {
+.footer .u-link__disabled:hover,
+.footer .u-link__disabled.hover {
   border-color: #babbbd;
   color: #babbbd;
 }
 
-.footer .list_link__disabled:focus,
-.footer .list_link__disabled.focus {
+.footer .u-link__disabled:focus,
+.footer .u-link__disabled.focus {
   border-color: #babbbd;
   color: #babbbd;
 }
 
-.footer .list_link__disabled:active,
-.footer .list_link__disabled.active {
+.footer .u-link__disabled:active,
+.footer .u-link__disabled.active {
   border-color: #babbbd;
   color: #babbbd;
 }
