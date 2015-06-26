@@ -24,7 +24,7 @@ Given the `MAJOR.MINOR.PATCH` pattern, here is how we decide to increment:
 ### Removed
 - Removed `list_link__disabled` class.
 
-- Removed `link_list__disabled` class.
+- Removed `list_link__disabled` class.
 
 ### Changed
 - Fixed background and border on secondary navigation.
