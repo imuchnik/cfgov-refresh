@@ -27,7 +27,6 @@ Given the `MAJOR.MINOR.PATCH` pattern, here is how we decide to increment:
 - Added `block__border-left` and `block__border-right` CF enhancements.
 
 ### Changed
-- Fixed background and border on secondary navigation.
 - Moved `link_list__disabled` class to global context.
 - Related Links now disable styles links with empty URLs.
 - Updated secondary navigation to use true parent/child relationships
@@ -35,10 +34,13 @@ Given the `MAJOR.MINOR.PATCH` pattern, here is how we decide to increment:
   to a `classes` subdirectory.
 - Moved page-sniffing JS code to page scripts for the-bureau
   and working with the CFPB pages.
+- Moved carousel to a macro and implemented on the-bureau
+  and working at the CFPB pages.
 
 ### Removed
 
 ### Fixed
+- Fixed background and border on secondary navigation.
 
 
 ## 3.0.0-1.2.1 - 2015-06-29
