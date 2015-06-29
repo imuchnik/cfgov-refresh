@@ -71,61 +71,58 @@
             </p>
     </section>
 
-    <div>
-        {% import "macros/mobile-carousel.html" as mobile_carousel %}
-        {{ mobile_carousel.render({
-            'image_sizes_class': 'media_image__100',
-            'image_base_url':    '/static/img/',
-            'data': [{
-                'image_filename': 'serve.png',
-                'title':          'Serve',
-                'desc':      'Our mission begins with service to the
-                              consumer and our country.
-                              We serve our colleagues by listening to
-                              one another and by sharing our collective
-                              knowledge and experience.'
-                }, {
-                'image_filename': 'lead.png',
-                'title':          'Lead',
-                'desc':      'Fostering leadership and collaboration at
-                              all levels is at the core of our success.
-                              We believe in investing in the growth of
-                              our colleagues and in creating an
-                              organization that is accountable to the
-                              American people.'
-                }, {
-                'image_filename': 'innovate.png',
-                'title':          'Innovate',
-                'desc':      'Our organization embraces new ideas
-                              and technology.
-                              We are focused on continuously improving,
-                              learning, and pushing ourselves to be great.'
-                }]
-            })
-        }}
+    {% import "macros/mobile-carousel.html" as mobile_carousel %}
+    {{ mobile_carousel.render({
+        'image_sizes_class': 'media_image__100',
+        'image_base_url':    '/static/img/',
+        'data': [{
+            'image_filename': 'serve.png',
+            'title':          'Serve',
+            'desc':      'Our mission begins with service to the
+                          consumer and our country.
+                          We serve our colleagues by listening to
+                          one another and by sharing our collective
+                          knowledge and experience.'
+            }, {
+            'image_filename': 'lead.png',
+            'title':          'Lead',
+            'desc':      'Fostering leadership and collaboration at
+                          all levels is at the core of our success.
+                          We believe in investing in the growth of
+                          our colleagues and in creating an
+                          organization that is accountable to the
+                          American people.'
+            }, {
+            'image_filename': 'innovate.png',
+            'title':          'Innovate',
+            'desc':      'Our organization embraces new ideas
+                          and technology.
+                          We are focused on continuously improving,
+                          learning, and pushing ourselves to be great.'
+            }]
+        })
+    }}
 
-        <div class="block
-                    block__flush-top">
-            <p class="short-desc">As a bureau, we support these values by focusing on equal opportunity, diversity, and inclusion. We value candidates from all backgrounds, traditional and non-traditional. We believe in investing in the growth of our colleagues and in creating an organization that is accountable to and representative of the American people.</p>
+    <div class="block
+                block__flush-top">
+        <p class="short-desc">As a bureau, we support these values by focusing on equal opportunity, diversity, and inclusion. We value candidates from all backgrounds, traditional and non-traditional. We believe in investing in the growth of our colleagues and in creating an organization that is accountable to and representative of the American people.</p>
 
-            <p class="short-desc">Our service to the people who work here begins with recruitment. It also includes professional development, competitive compensation and benefits, and financial wellness programs. We want our people to learn, improve, and push themselves to be great continuously.</p>
-        </div>
-
-        <div class="block
-                    block__padded-top
-                    block__border-top
-                    content-l">
-            <section class="content-l_col-1-2">
-                {% include "templates/summaries/current-openings.html" %}
-            </section>
-            <section class="content-l_col-1-2">
-                {% include "templates/summaries/job-app-process.html" %}
-            </section>
-        </div>
-
-        {% include "templates/summaries/block-social.html" %}
-
+        <p class="short-desc">Our service to the people who work here begins with recruitment. It also includes professional development, competitive compensation and benefits, and financial wellness programs. We want our people to learn, improve, and push themselves to be great continuously.</p>
     </div>
+
+    <div class="block
+                block__padded-top
+                block__border-top
+                content-l">
+        <section class="content-l_col-1-2">
+            {% include "templates/summaries/current-openings.html" %}
+        </section>
+        <section class="content-l_col-1-2">
+            {% include "templates/summaries/job-app-process.html" %}
+        </section>
+    </div>
+
+    {% include "templates/summaries/block-social.html" %}
 
     <aside>
         <div class="block
