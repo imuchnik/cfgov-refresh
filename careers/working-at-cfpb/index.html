@@ -72,71 +72,40 @@
     </section>
 
     <div>
-        <section class="js-mobile-carousel">
-            <div>
-                <section class="media
-                                block
-                                block__padded-top
-                                block__flush-top
-                                block__flush-bottom">
-                    <div class="media_image-container media_image-container__wide-margin">
-                        <img class="media_image u-centered-on-mobile" src="/static/img/serve.png">
-                    </div>
-                    <div class="media_body">
-                        <h4 class="u-mb0">Serve</h4>
-                        <p class="short-desc">
-                            Our mission begins with service to the consumer
-                            and our country.
-                            We serve our colleagues by listening to one another
-                            and by sharing our collective knowledge and experience.
-                        </p>
-                    </div>
-                </section>
-            </div>
+        {% import "macros/mobile-carousel.html" as mobile_carousel %}
+        {{ mobile_carousel.render({
+            'image_sizes_class': 'media_image__100',
+            'image_base_url':    '/static/img/',
+            'data': [{
+                'image_filename': 'serve.png',
+                'title':          'Serve',
+                'desc':      'Our mission begins with service to the
+                              consumer and our country.
+                              We serve our colleagues by listening to
+                              one another and by sharing our collective
+                              knowledge and experience.'
+                }, {
+                'image_filename': 'lead.png',
+                'title':          'Lead',
+                'desc':      'Fostering leadership and collaboration at
+                              all levels is at the core of our success.
+                              We believe in investing in the growth of
+                              our colleagues and in creating an
+                              organization that is accountable to the
+                              American people.'
+                }, {
+                'image_filename': 'innovate.png',
+                'title':          'Innovate',
+                'desc':      'Our organization embraces new ideas
+                              and technology.
+                              We are focused on continuously improving,
+                              learning, and pushing ourselves to be great.'
+                }]
+            })
+        }}
 
-            <div>
-                <section class="media
-                                block
-                                block__padded-top
-                                block__border-top
-                                block__flush-bottom">
-                    <div class="media_image-container media_image-container__wide-margin">
-                        <img class="media_image u-centered-on-mobile" src="/static/img/lead.png">
-                    </div>
-                    <div class="media_body">
-                        <h4 class="u-mb0">Lead</h4>
-                        <p class="short-desc">
-                            Fostering leadership and collaboration at all levels is
-                            at the core of our success. We believe in investing
-                            in the growth of our colleagues and in creating an
-                            organization that is accountable to the American people.
-                        </p>
-                    </div>
-                </section>
-            </div>
-
-            <div>
-                <section class="media
-                                block
-                                block__padded-top
-                                block__border-top
-                                block__flush-bottom">
-                    <div class="media_image-container media_image-container__wide-margin">
-                        <img class="media_image u-centered-on-mobile" src="/static/img/innovate.png">
-                    </div>
-                    <div class="media_body">
-                        <h4 class="u-mb0">Innovate</h4>
-                        <p class="short-desc">
-                            Our organization embraces new ideas and technology.
-                            We are focused on continuously improving, learning,
-                            and pushing ourselves to be great.
-                        </p>
-                    </div>
-                </section>
-            </div>
-        </section>
-
-        <div class="block">
+        <div class="block
+                    block__flush-top">
             <p class="short-desc">As a bureau, we support these values by focusing on equal opportunity, diversity, and inclusion. We value candidates from all backgrounds, traditional and non-traditional. We believe in investing in the growth of our colleagues and in creating an organization that is accountable to and representative of the American people.</p>
 
             <p class="short-desc">Our service to the people who work here begins with recruitment. It also includes professional development, competitive compensation and benefits, and financial wellness programs. We want our people to learn, improve, and push themselves to be great continuously.</p>
