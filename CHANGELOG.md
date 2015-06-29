@@ -26,6 +26,8 @@ Given the `MAJOR.MINOR.PATCH` pattern, here is how we decide to increment:
   and added associated `js-mobile-carousel` class as a hook.
 - Added `block__border-left` and `block__border-right` CF enhancements.
 - Added `the-bureau` page wrapper class.
+- Added `media_image__100` and `media_image__130-to-150` classes for responsive
+  image sizes on mobile carousel.
 
 ### Changed
 - Moved `link_list__disabled` class to global context.
