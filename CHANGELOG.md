@@ -19,11 +19,7 @@ Given the `MAJOR.MINOR.PATCH` pattern, here is how we decide to increment:
 - Added `block__border-left` and `block__border-right` CF enhancements.
 - Added `u-link__disabled` utility class for styling disabled links.
 
-- Added `u-disabled-link` utility class for styling disabled links.
-
 ### Removed
-- Removed `list_link__disabled` class.
-
 - Removed `list_link__disabled` class.
 
 ### Changed
