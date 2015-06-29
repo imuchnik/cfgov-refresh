@@ -16,24 +16,36 @@ Given the `MAJOR.MINOR.PATCH` pattern, here is how we decide to increment:
 ## Unreleased
 
 ### Added
-
+- Added `/careers/working-at-cfpb/` page.
+- Added block templates for current openings, job app process,
+  linkedin info, and provide feedback link.
+- Added `.content-l_col__before-inset-divider` CF enhancement
+  for a column divider in cf-layout that has a gap between the
+  top of the divider and the top border.
+- Added `MobileCarousel.js` module for instantiating the slick carousel
+  and added associated `js-mobile-carousel` class as a hook.
 - Added `block__border-left` and `block__border-right` CF enhancements.
 
 ### Changed
-
 - Fixed background and border on secondary navigation.
 - Moved `link_list__disabled` class to global context.
 - Related Links now disable styles links with empty URLs.
 - Updated secondary navigation to use true parent/child relationships
+- Moved modules that can be instantiated through the `new` keyword
+  to a `classes` subdirectory.
+- Moved page-sniffing JS code to page scripts for the-bureau
+  and working with the CFPB pages.
 
 ### Removed
 
 ### Fixed
 
+
 ## 3.0.0-1.2.1 - 2015-06-29
 
 ### Removed
 - Event processor to fix indexing error
+
 
 ## 3.0.0-1.2.0 - 2015-06-19
 
@@ -112,7 +124,6 @@ Given the `MAJOR.MINOR.PATCH` pattern, here is how we decide to increment:
 - Moved `string_length` macro from `macros.html` to `macros/util/text.html`.
 - Events processor/mapping/queries for new Event type structure
 - Changed the way navigation works for Office/Subpage
-
 
 ### Fixed
 - Fixed an issue where scripts were being initialized out of order
