@@ -17,10 +17,10 @@
 {% block hero -%}
     <section class="content_hero hero hero__bureau">
         {% from "macros.html" import YouTube %}
-        {# % set image_url = options.image_url % #}
         {% call YouTube({
             'video_id' : 'XCbZnTIeTOY',
-            'image_res' : 'max'
+            'image_res' : 'max',
+            'image_url': '../../static/img/applying-video-screenshot.png'
             })
         %}
         <div class="hero_wrapper hide-on_yt-playing">
@@ -91,7 +91,7 @@
                 </span>
             </button>
             <div class="expandable_content">
-                <div class="media block">
+                <div class="media block u-mt0">
                     <div class="media_image-container media_image-container__wide-margin">
                         <img class="media_image u-centered-on-mobile"
                              src="../../static/img/gavel-round.png">
@@ -128,7 +128,7 @@
                 </span>
             </button>
             <div class="expandable_content">
-                <div class="media block">
+                <div class="media block u-mt0">
                     <div class="media_image-container media_image-container__wide-margin">
                         <img class="media_image u-centered-on-mobile"
                              src="../../static/img/computer-round.png">
@@ -166,7 +166,7 @@
                     </span>
                 </button>
                 <div class="expandable_content">
-                    <div class="media block">
+                    <div class="media block u-mt0">
                         <div class="media_image-container media_image-container__wide-margin">
                             <img class="media_image u-centered-on-mobile"
                                  src="../../static/img/computer-round.png">
