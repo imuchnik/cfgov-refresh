@@ -25,6 +25,7 @@ Given the `MAJOR.MINOR.PATCH` pattern, here is how we decide to increment:
 - Added `MobileCarousel.js` module for instantiating the slick carousel
   and added associated `js-mobile-carousel` class as a hook.
 - Added `block__border-left` and `block__border-right` CF enhancements.
+- Added `the-bureau` page wrapper class.
 
 ### Changed
 - Moved `link_list__disabled` class to global context.
