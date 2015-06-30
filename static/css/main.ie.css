@@ -9160,17 +9160,17 @@ a.focus .summary_event-date {
   margin: 0;
 }
 
-.js-mobile-carousel.slick-slider .slick-dots li button:before {
+.js-mobile-carousel.slick-slider .slick-dots button:before {
   color: #babbbd;
   font-size: 40px;
   opacity: 1;
 }
 
-.js-mobile-carousel.slick-slider .slick-dots li button:hover:before {
+.js-mobile-carousel.slick-slider .slick-dots button:hover:before {
   color: #75787b;
 }
 
-.js-mobile-carousel.slick-slider .slick-dots li.slick-active button:before {
+.js-mobile-carousel.slick-slider .slick-dots .slick-active button:before {
   opacity: 1;
   color: #75787b;
 }
