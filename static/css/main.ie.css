@@ -9175,22 +9175,6 @@ a.focus .summary_event-date {
   color: #75787b;
 }
 
-.js-mobile-carousel.slick-slider .slick-prev {
-  left: 10%;
-}
-
-.js-mobile-carousel.slick-slider .slick-prev:before {
-  content: "\e000";
-}
-
-.js-mobile-carousel.slick-slider .slick-next {
-  right: 10%;
-}
-
-.js-mobile-carousel.slick-slider .slick-next:before {
-  content: "\e002";
-}
-
 .js-mobile-carousel.slick-slider .slick-prev,
 .js-mobile-carousel.slick-slider .slick-next {
   height: 30px;
@@ -9215,6 +9199,22 @@ a.focus .summary_event-date {
   font-weight: normal;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
+}
+
+.js-mobile-carousel.slick-slider .slick-prev {
+  left: 10%;
+}
+
+.js-mobile-carousel.slick-slider .slick-prev:before {
+  content: "\e000";
+}
+
+.js-mobile-carousel.slick-slider .slick-next {
+  right: 10%;
+}
+
+.js-mobile-carousel.slick-slider .slick-next:before {
+  content: "\e002";
 }
 
 .beta-banner {
