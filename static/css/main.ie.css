@@ -9179,7 +9179,7 @@ a.focus .summary_event-date {
 .js-mobile-carousel.slick-slider .slick-next {
   height: 30px;
   width: 30px;
-  top: 75px;
+  top: 140px;
   z-index: 1000;
 }
 
@@ -10593,6 +10593,11 @@ a.focus .summary_event-date {
 .the-bureau .js-mobile-carousel.slick-slider {
   border-bottom: none;
   padding-bottom: 0;
+}
+
+.the-bureau .js-mobile-carousel.slick-slider .slick-prev,
+.the-bureau .js-mobile-carousel.slick-slider .slick-next {
+  top: 150px;
 }
 
 .bureau-functions {
