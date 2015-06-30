@@ -9191,7 +9191,7 @@ a.focus .summary_event-date {
 .js-mobile-carousel.slick-slider .slick-prev:before,
 .js-mobile-carousel.slick-slider .slick-next:before {
   color: #e3e4e5;
-  opacity: 1;
+  opacity: initial;
   font-size: 30px;
   font-family: 'CFPB Minicons';
   display: inline-block;
