@@ -9,22 +9,18 @@
 // Override general slick carousel overrides defined in mobile-carousel.less.
 // Removes bottom border, because the-bureau has a bordered block below
 // its carousel.
-.the-bureau {
-    .js-mobile-carousel {
-        &.slick-slider {
-            border-bottom: none;
-            padding-bottom: 0;
+.the-bureau .js-mobile-carousel.slick-slider {
+    border-bottom: none;
+    padding-bottom: 0;
 
-            .slick-prev,
-            .slick-next {
-                // TODO:
-                // The top value relies on the height
-                // of the carousel slide image, which may vary.
-                // This overrides the default top of 140px set
-                // in mobile-carousel.less.
-                top: 150px;
-            }
-        }
+    .slick-prev,
+    .slick-next {
+        // TODO:
+        // The top value relies on the height
+        // of the carousel slide image, which may vary.
+        // This overrides the default top of 140px set
+        // in mobile-carousel.less.
+        top: 150px;
     }
 }
 
