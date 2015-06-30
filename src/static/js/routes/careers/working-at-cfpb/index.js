@@ -10,7 +10,7 @@ var MobileCarousel = require( '../../../modules/classes/MobileCarousel' );
 function init() {
 
   // TODO: Remove this when per-page JS is introduced.
-  if ( document.querySelectorAll( '.js-mobile-carousel' ).length === 0 ) {
+  if ( document.querySelectorAll( '.careers-working-at-cfpb' ).length === 0 ) {
     return;
   }
 
