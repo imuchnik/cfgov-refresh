@@ -13,22 +13,22 @@
    slides: An array of data to populate the carousel slides with.
            The structure looks like:
            {
-           'image_sizes_class': <A image sizing class for responsive sizes>,
-           'image_base_url':    <Base URL path for images>,
-           'data': [{
-              'image_filename': <Carousel slide image filename>,
-              'title':          <Carousel slide filename>,
-              'desc':           <Carousel slide description>
-              }, {
-              'image_filename': <Carousel slide image filename>,
-              'title':          <Carousel slide filename>,
-              'desc':           <Carousel slide description>
-              }]
+             'image_sizes_class': <A image sizing class for responsive sizes>,
+             'image_base_url':    <Base URL path for images>,
+             'data': [{
+                'image_filename': <Carousel slide image filename>,
+                'title':          <Carousel slide filename>,
+                'desc':           <Carousel slide description>
+                }, {
+                'image_filename': <Carousel slide image filename>,
+                'title':          <Carousel slide filename>,
+                'desc':           <Carousel slide description>
+                }]
            }
 
    ========================================================================== #}
 
-{% macro render( slides ) %}
+{% macro render(slides) %}
     <section class="js-mobile-carousel">
 
         {% for slide in slides.data %}
