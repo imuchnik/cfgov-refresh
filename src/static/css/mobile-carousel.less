@@ -50,22 +50,21 @@
 
             li {
                 margin: 0;
-
-                button {
-                    &:before {
-                        color: @gray-50;
-                        font-size: 40px;
-                        opacity: 1;
-                    }
-
-                    &:hover:before {
-                        color: @gray;
-                    }
-                }
-
             }
 
-            li.slick-active {
+            button {
+                &:before {
+                    color: @gray-50;
+                    font-size: 40px;
+                    opacity: 1;
+                }
+
+                &:hover:before {
+                    color: @gray;
+                }
+            }
+
+            .slick-active {
                 button:before {
                     opacity: 1;
                     color: @gray;
